@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#36CFC9",
+    "navigationBarTitleText": "ediMovie",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar":{
+    "selectedColor": "#36CFC9",
+    "list":[{
+      "pagePath":"pages/movie/movie",
+      "text":"电影",
+      "iconPath":"images/movie.png",
+      "selectedIconPath":"images/movieSel.png"
+    },{
+      "pagePath":"pages/profile/profile",
+      "text":"个人中心",
+      "iconPath":"images/myCenter.png",
+      "selectedIconPath":"images/myCenterSel.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
