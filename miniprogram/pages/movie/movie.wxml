@@ -1,2 +1,26 @@
 <!--pages/movie/movie.wxml-->
+<button bind:tap="searchBJ">查询北京天气</button>
+<view>
+  <text>城市：</text><h1>{{weatherBJ.future.one.date}}</h1>
+  <text>未来天气预报:</text>
+  <h1>{{weatherBJ.future.one.date}}</h1>
+  <h1>{{weatherBJ.future.one.direct}}</h1>
+  <h1>{{weatherBJ.future.one.temperature}}</h1>
+  <h1>{{weatherBJ.future.one.weather}}</h1>
+</view>
 
+
+<view>{{dataRes.result.city}}</view>
+<view>{{dataRes.result.future[0].date}}</view>
+<view>{{dataRes.result.future[0].direct}}</view>
+<view>{{dataRes.result.future[0].temperature}}</view>
+<view>{{dataRes.result.future[0].weather
+}}</view>
+<view>{{dataRes.result.future[0].date}}</view>
+<view>{{dataRes.result.realtime.aqi}}</view>
+<view>{{dataRes.result.realtime.direct}}</view>
+<view>{{dataRes.result.realtime.humidity}}</view>
+<view>{{dataRes.result.realtime.info}}</view>
+<view>{{dataRes.result.realtime.power}}</view>
+<view>{{dataRes.result.realtime.temperature}}</view>
+<view>{{dataRes.result.realtime.wid}}</view>
